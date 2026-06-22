@@ -1,5 +1,5 @@
 plugins {
-  java
+  application
 }
 
 repositories {
@@ -12,6 +12,10 @@ dependencies {
 
 java {
   toolchain {
-    languageVersion.set(JavaLanguageVersion.of(20))
+    languageVersion.set(JavaLanguageVersion.of(17))
   }
+}
+
+application {
+  mainClass.set("com.gradlehero.themepark.ThemeParkApplication")
 }

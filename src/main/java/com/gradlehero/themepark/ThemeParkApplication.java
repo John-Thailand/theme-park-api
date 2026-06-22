@@ -6,6 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ThemeParkApplication {
   public static void main(String[] args) {
-    ApringApplication.run(ThemeParkApplication.class);
+    SpringApplication.run(ThemeParkApplication.class);
   }
 }
